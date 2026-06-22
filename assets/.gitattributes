@@ -1,0 +1,10 @@
+# These showcase images are published verbatim to the PUBLIC Rei-Demo repo by
+# .github/workflows/publish-showcase.yml (which checks out with lfs:false).
+# The repo-root .gitattributes forces *.png/*.jpg/*.gif into Git LFS — that would
+# publish LFS POINTER files (broken images) and burn the public repo's tiny LFS
+# bandwidth quota. Override it here so these assets are stored as plain git blobs.
+# (See docs/specs/demo-repo-publishing.md §4 rule 3.)
+*.png  !filter !diff !merge -text
+*.jpg  !filter !diff !merge -text
+*.jpeg !filter !diff !merge -text
+*.gif  !filter !diff !merge -text

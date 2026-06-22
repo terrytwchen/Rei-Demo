@@ -1,0 +1,15 @@
+# Showcase assets
+
+The README references these three static screenshots. Capture them from the running
+app (https://rei.ttwdev.com) and drop them in this folder with these EXACT names:
+
+- hero.png    — headline shot: a chat where you asked a roster question and Rei replied
+                with an analyst-style answer that includes an inline stat table.
+                The single most representative screen (sits at the top of the README).
+- roster.png  — the Roster / leagues page showing a league roster with the stat columns
+                (Basic / Advanced / Statcast percentile, batters + pitchers).
+- chat.png    — a chat session showing the multi-session sidebar (a few past
+                conversations) + a conversation, to convey the chat UX / history.
+
+Keep them as plain PNG blobs (NOT Git LFS) — public-repo LFS bandwidth is tiny and would
+break the images. Compress/optimize before committing. No GIF for now.
