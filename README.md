@@ -135,9 +135,10 @@ on "read my code":
 
 ## Status
 
-**v0.1.0 — Advisory Mode MVP** (first production release). See [CHANGELOG](CHANGELOG.md)
-for what shipped and known limitations. Roadmap: Agentic mode (opt-in automated add/drop),
-saved tables, watchlist UI.
+**Advisory Mode MVP** in production — see the **release badge** above and the
+[CHANGELOG](CHANGELOG.md) for what shipped in the current version and known
+limitations. Roadmap: Agentic mode (opt-in automated add/drop), saved tables,
+watchlist UI.
 
 > Known issues / outages are posted as a
 > [pinned issue](https://github.com/terrytwchen/Rei-Demo/issues) here, not in this README.
